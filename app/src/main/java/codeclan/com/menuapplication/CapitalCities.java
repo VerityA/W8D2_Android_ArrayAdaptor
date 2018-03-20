@@ -20,18 +20,18 @@ public class CapitalCities {
         capitalCities.add(new City("Paris", "France", R.drawable.paris, R.drawable.french_flag ));
         capitalCities.add(new City("London", "UK",R.drawable.london,R.drawable.british_flag));
         capitalCities.add(new City("Zagreb", "Croatia",R.drawable.zagreb,R.drawable.croatian_flag));
-//        capitalCities.add(new City("Beijing", "China"));
-//        capitalCities.add(new City("Havana", "Cuba"));
-//        capitalCities.add(new City("Copenhagen", "Denmark"));
-//        capitalCities.add(new City("Tallinn", "Estonia"));
-//        capitalCities.add(new City("Athens", "Greece"));
-//        capitalCities.add(new City("Rome", "Italy"));
-//        capitalCities.add(new City("Riga", "Latvia"));
-//        capitalCities.add(new City("Tripoli", "Libya"));
-//        capitalCities.add(new City("Valletta", "Malta"));
-//        capitalCities.add(new City("Rabat", "Morocco"));
-//        capitalCities.add(new City("Kathmandu", "Nepal"));
-//        capitalCities.add(new City("Lima", "Peru"));
+        capitalCities.add(new City("Beijing", "China",R.drawable.beijing,R.drawable.chinese_flag));
+        capitalCities.add(new City("Havana", "Cuba",R.drawable.havana,R.drawable.cuban_flag));
+        capitalCities.add(new City("Copenhagen", "Denmark",R.drawable.copenhagen,R.drawable.danish_flag));
+        capitalCities.add(new City("Tallinn", "Estonia",R.drawable.tallinn,R.drawable.estonian_flag));
+        capitalCities.add(new City("Athens", "Greece",R.drawable.athens,R.drawable.greek_flag));
+        capitalCities.add(new City("Rome", "Italy",R.drawable.rome,R.drawable.italian_flag));
+        capitalCities.add(new City("Riga", "Latvia",R.drawable.riga,R.drawable.latvian_flag));
+        capitalCities.add(new City("Tripoli", "Libya",R.drawable.tripoli,R.drawable.libyan_flag));
+        capitalCities.add(new City("Valletta", "Malta",R.drawable.valletta,R.drawable.maltese_flag));
+        capitalCities.add(new City("Rabat", "Morocco",R.drawable.rabat,R.drawable.morrocan_flag));
+        capitalCities.add(new City("Kathmandu", "Nepal",R.drawable.kathmandu,R.drawable.nepalese_flag));
+        capitalCities.add(new City("Lima", "Peru",R.drawable.lima,R.drawable.peruvian_flag));
     }
 
     public ArrayList<City> getCapitalCities() {

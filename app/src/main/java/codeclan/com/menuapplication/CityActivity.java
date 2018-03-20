@@ -16,16 +16,15 @@ public class CityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city);
 
-        CapitalCities cities = new CapitalCities();
-        ArrayList<City> cityList = cities.getCapitalCities();
-
         Intent intent = getIntent();
         City selectedCity = (City) intent.getSerializableExtra("city");
-//        ImageView imageView = (ImageView) findViewById(R.id.paris_img);
-//        imageView.setImageResource(selectedCity.getCityImage());
 
-        CapitalCityAdaptor cityAdaptor = new CapitalCityAdaptor(this, cityList);
-        ImageView imageView = findViewById(R.id.paris_img);
-        imageView.setImageResource(selectedCity.getCityImage());
+
+        ImageView cityImage = findViewById(R.id.city_image);
+        cityImage.setImageResource(selectedCity.getCityImage());
+        ImageView countryFlag = findViewById(R.id.country_flag);
+        countryFlag.setImageResource(selectedCity.getCountryFlag());
+
+
     }
 }

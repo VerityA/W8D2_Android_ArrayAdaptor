@@ -1,5 +1,6 @@
 package codeclan.com.menuapplication;
 
+import android.content.Intent;
 import android.widget.ImageView;
 
 import java.io.Serializable;
@@ -12,11 +13,11 @@ public class City implements Serializable {
 
     private String name;
     private String country;
-    private int cityImage;
-    private int countryFlag;
+    private Integer cityImage;
+    private Integer countryFlag;
 
 
-    public City (String name, String country, int cityImage, int countryFlag) {
+    public City (String name, String country, Integer cityImage, Integer countryFlag) {
         this.country = country;
         this.name = name;
         this.cityImage = cityImage;
@@ -31,11 +32,11 @@ public class City implements Serializable {
         return name;
     }
 
-    public int getCityImage() {
+    public Integer getCityImage() {
         return cityImage;
     }
 
-    public int getCountryFlag() {
+    public Integer getCountryFlag() {
         return countryFlag;
     }
 }

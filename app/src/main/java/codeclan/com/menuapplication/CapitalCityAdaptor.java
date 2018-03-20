@@ -34,8 +34,9 @@ public class CapitalCityAdaptor extends ArrayAdapter<City> {
         cityName.setText(currentCity.getName());
         TextView countryName = listItemView.findViewById(R.id.county_name);
         countryName.setText(currentCity.getCountry());
-//        ImageView cityImage = listItemView.findViewById(R.id.paris_img);
-//        cityImage.setImageResource(currentCity.getCityImage());
+
+
+        listItemView.setTag(currentCity);
         return listItemView;
     }
 }
